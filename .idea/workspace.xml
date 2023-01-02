@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f65206e-779b-4c4b-88a6-9e68bfc743ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/entity/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/entity/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/QusertdslBasicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/entity/MemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querydsl/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querydsl/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/QuerydslApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/QuerydslApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/dto/MemberTeamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/repository/MemberJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/src/main/java/study/querydsl/dto/MemberDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querydsl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/QusertdslBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/querydsl/src/test/java/study/querydsl/QusertdslBasicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="querydsl" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="querydsl" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="querydsl" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -51,12 +58,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -83,9 +99,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -96,8 +118,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Gradle.QusertdslBasicTest.findUserDtoByField">
-    <configuration name="QusertdslBasicTest.findDtoByConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="study.querydsl.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MemberJpaRepositoryTest.저장">
+    <configuration name="MemberJpaRepositoryTest.저장" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
@@ -110,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;study.querydsl.QusertdslBasicTest.findDtoByConstructor&quot;" />
+            <option value="&quot;study.querydsl.repository.MemberJpaRepositoryTest.저장&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -120,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QusertdslBasicTest.findDtoByField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QusertdslBasicTest.dynamicQuery_BooleanBuilder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
@@ -133,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;study.querydsl.QusertdslBasicTest.findDtoByField&quot;" />
+            <option value="&quot;study.querydsl.QusertdslBasicTest.dynamicQuery_BooleanBuilder&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QusertdslBasicTest.findDtoByJPQL" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QusertdslBasicTest.dynamicQuery_whereParam" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
@@ -156,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;study.querydsl.QusertdslBasicTest.findDtoByJPQL&quot;" />
+            <option value="&quot;study.querydsl.QusertdslBasicTest.dynamicQuery_whereParam&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,7 +196,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QusertdslBasicTest.findDtoBySetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QusertdslBasicTest.findDtoByQueryProjection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
@@ -179,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;study.querydsl.QusertdslBasicTest.findDtoBySetter&quot;" />
+            <option value="&quot;study.querydsl.QusertdslBasicTest.findDtoByQueryProjection&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,7 +219,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QusertdslBasicTest.findUserDtoByField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QusertdslBasicTest.sqlFunction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/querydsl" />
@@ -202,7 +232,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;study.querydsl.QusertdslBasicTest.findUserDtoByField&quot;" />
+            <option value="&quot;study.querydsl.QusertdslBasicTest.sqlFunction&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.QusertdslBasicTest.findUserDtoByField" />
-        <item itemvalue="Gradle.QusertdslBasicTest.findDtoByConstructor" />
-        <item itemvalue="Gradle.QusertdslBasicTest.findDtoByField" />
-        <item itemvalue="Gradle.QusertdslBasicTest.findDtoBySetter" />
-        <item itemvalue="Gradle.QusertdslBasicTest.findDtoByJPQL" />
+        <item itemvalue="Gradle.MemberJpaRepositoryTest.저장" />
+        <item itemvalue="Gradle.QusertdslBasicTest.sqlFunction" />
+        <item itemvalue="Gradle.QusertdslBasicTest.dynamicQuery_whereParam" />
+        <item itemvalue="Gradle.QusertdslBasicTest.dynamicQuery_BooleanBuilder" />
+        <item itemvalue="Gradle.QusertdslBasicTest.findDtoByQueryProjection" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +282,9 @@
       <workItem from="1648883702523" duration="7000" />
       <workItem from="1648883723550" duration="73000" />
       <workItem from="1648883810754" duration="69000" />
-      <workItem from="1648883894999" duration="4161000" />
+      <workItem from="1648883894999" duration="10158000" />
+      <workItem from="1648902361050" duration="19000" />
+      <workItem from="1648993203103" duration="3690000" />
     </task>
     <servers />
   </component>
